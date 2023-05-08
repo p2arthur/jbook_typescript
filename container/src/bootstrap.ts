@@ -1,4 +1,4 @@
 import 'products/ProductsIndex';
-import 'cart/CartIndex';
+import 'cart/CartShow';
 
 export const bootstrap = () => console.log('Container!');
