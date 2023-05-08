@@ -1,6 +1,6 @@
 import * as faker from 'faker';
 
-let products = '';
+let products: string = '';
 const devProducts: HTMLElement = document.getElementById('dev-products');
 
 for (let i = 0; i <= 3; i++) {
