@@ -1,4 +1,10 @@
-import 'products/ProductsIndex';
-import 'cart/CartShow';
+import { productsMount } from 'products/ProductsIndex';
+import { cartMount } from 'cart/CartShow';
 
-export const bootstrap = () => console.log('Container!');
+const productsElement: HTMLElement = document.getElementById('prod-products');
+const cartElement: HTMLElement = document.getElementById('prod-cart');
+
+console.log('Container!');
+
+productsMount(productsElement);
+cartMount(cartElement);
